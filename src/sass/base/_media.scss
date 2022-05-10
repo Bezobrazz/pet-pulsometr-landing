@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+  .promo {
+    background: url(../img/header-bg.jpg) 20% / cover no-repeat;
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    background: url(../img/header-bg.jpg) 20% / cover no-repeat;
+    &__wrapper {
+      align-items: center;
+    }
+  }
+  .header {
+    gap: 20px;
+    &__contacts {
+      a {
+        display: none;
+      }
+    }
+    &__official {
+      display: none;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 434px) {
+  .promo {
+    &__title {
+      font-size: 35px;
+      text-align: center;
+    }
+    &__subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
+    &__icons {
+      display: none;
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 180px;
+    }
+  }
+}

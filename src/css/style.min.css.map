@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,CAAC,AAAC,CACA,WAAW,CAAE,6BAA6B,CAC3C,AACD,AAAA,UAAU,AAAC,CACT,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACf,AEPD,AAAA,MAAM,AAAC,CACL,UAAU,CAAE,0BAA0B,CAAC,MAAM,CAAC,YAAY,CAAC,SAAS,CACpE,UAAU,CAAE,KAAK,CAClB",
+    "sources": [
+        "../sass/style.scss",
+        "../sass/base/_var.scss",
+        "../sass/blocks/_promo.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
