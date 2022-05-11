@@ -27,6 +27,18 @@
       flex-wrap: wrap;
     }
   }
+  .consultation {
+    .title_left {
+      text-align: center;
+      font-size: 30px;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+    .feed-form {
+      margin: 0 auto;
+    }
+  }
 }
 
 @media (max-width: 434px) {
@@ -46,6 +58,32 @@
   .button {
     &_main {
       margin-top: 180px;
+    }
+  }
+  .advantages {
+    &__title {
+      font-size: 25px;
+    }
+  }
+  .consultation {
+    .title_left {
+      font-size: 25px;
+    }
+    &__subtitle {
+      font-size: 15px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .promo {
+    .button_main {
+      width: 100%;
+    }
+  }
+  .consultation {
+    .feed-form {
+      width: 100%;
     }
   }
 }
