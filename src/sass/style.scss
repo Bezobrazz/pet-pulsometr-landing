@@ -5,7 +5,7 @@
 }
 .container {
   max-width: 950px;
-  padding: 0 20px;
+
   margin: 0 auto;
 }
 @import "blocks/promo";
@@ -17,5 +17,6 @@
 @import "blocks/forms";
 @import "blocks/slider";
 @import "blocks/catalog";
+@import "blocks/opinions";
 
 @import "base/media";

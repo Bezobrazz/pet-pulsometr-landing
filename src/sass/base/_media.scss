@@ -1,3 +1,8 @@
+@media (max-width: 1120px) {
+  .container {
+    padding: 0 20px;
+  }
+}
 @media (max-width: 1024px) {
   .promo {
     background: url(../img/header-bg.jpg) 20% / cover no-repeat;
@@ -42,6 +47,15 @@
   .slider {
     max-height: 742px;
   }
+  .opinion {
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__descr-wrapper {
+      text-align: center;
+    }
+  }
 }
 
 @media (max-width: 434px) {
@@ -63,10 +77,8 @@
       margin-top: 180px;
     }
   }
-  .advantages {
-    &__title {
-      font-size: 25px;
-    }
+  .title {
+    font-size: 25px;
   }
   .consultation {
     .title_left {
