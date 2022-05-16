@@ -58,6 +58,13 @@
   }
 }
 
+@media (max-width: 460px) {
+  .modal__close {
+    top: -15px;
+    right: 5px;
+  }
+}
+
 @media (max-width: 434px) {
   .promo {
     &__title {
@@ -96,9 +103,8 @@
       width: 100%;
     }
   }
-  .consultation {
-    .feed-form {
-      width: 100%;
-    }
+
+  .feed-form {
+    width: 100%;
   }
 }
