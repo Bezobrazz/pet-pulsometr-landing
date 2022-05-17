@@ -38,4 +38,10 @@
       }
     }
   }
+  &__anime {
+    animation: heartbeat 1.5s ease infinite;
+    &:hover {
+      animation: none;
+    }
+  }
 }
